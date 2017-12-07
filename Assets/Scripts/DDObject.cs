@@ -24,6 +24,9 @@ public class DDObject : MonoBehaviour, DragDropHandler
     public void HandleGazeTriggerStart()
     {
         isHeld = true;
+		//AudioSource audio = GetComponent<AudioSource>();
+		AudioSource audio = GetComponentInParent<AudioSource>();
+		audio.Play ();
     }
     public void HandleGazeTriggerEnd()
     {
