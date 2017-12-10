@@ -2,6 +2,6 @@
 
 public interface DragDropHandler : IEventSystemHandler
 {
-    void HandleGazeTriggerStart();
+    void HandleGazeTriggerStart(int index);
     void HandleGazeTriggerEnd();
 }

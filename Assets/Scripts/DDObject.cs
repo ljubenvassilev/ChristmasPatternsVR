@@ -6,10 +6,14 @@ public class DDObject : MonoBehaviour, DragDropHandler
     private bool isHeld;
     private GameObject reticle;
 
+    public GameObject scriptPrefab;
+    private GameManagerScript script;
+
     void Start()
     {
         isHeld = false;
         reticle = GameObject.Find("GvrReticlePointer");
+        script = scriptPrefab.GetComponent<GameManagerScript>();
     }
 
     void Update()
@@ -21,16 +25,18 @@ public class DDObject : MonoBehaviour, DragDropHandler
         }
     }
 
-    public void HandleGazeTriggerStart()
+    public void HandleGazeTriggerStart(int index)
     {
         isHeld = true;
-		//AudioSource audio = GetComponent<AudioSource>();
-		AudioSource audio = GetComponentInParent<AudioSource>();
+        script.SetHeld(index);
+        //AudioSource audio = GetComponent<AudioSource>();
+        AudioSource audio = GetComponentInParent<AudioSource>();
 		audio.Play ();
     }
     public void HandleGazeTriggerEnd()
     {
         isHeld = false;
+        script.Unhold();
     }
 
     public void SetGazedAt(bool gazedAt)
