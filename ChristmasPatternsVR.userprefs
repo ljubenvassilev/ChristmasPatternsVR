@@ -2,7 +2,10 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\DDObject.cs">
     <Files>
-      <File FileName="Assets\Scripts\DDObject.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\DDObject.cs" Line="28" Column="35" />
+      <File FileName="..\..\Desktop\Udacity_VR_Nanodegree\3 VR Software Dev\vrnd-a-maze-by-Kai-Evenson\A Maze\Assets\UdacityVR\Scripts\Coin.cs" Line="1" Column="1" />
+      <File FileName="..\..\Desktop\Udacity_VR_Nanodegree\3 VR Software Dev\vrnd-a-maze-by-Kai-Evenson\A Maze\Assets\UdacityVR\Scripts\Waypoint.cs" Line="48" Column="18" />
+      <File FileName="..\..\Desktop\Udacity_VR_Nanodegree\3 VR Software Dev\vrnd-a-maze-by-Kai-Evenson\A Maze\Assets\UdacityVR\Scripts\Door.cs" Line="37" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

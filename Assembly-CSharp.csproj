@@ -156,6 +156,7 @@
      <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrVRHelpers.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Video\GvrVideoPlayerTexture.cs" />
      <Compile Include="Assets\Scripts\DDObject.cs" />
+     <Compile Include="Assets\Scripts\GameManagerScript.cs" />
      <None Include="Assets\GoogleVR\Shaders\GvrUIOverlayFont.shader" />
      <None Include="Assets\GoogleVR\Shaders\GvrAdditiveOverlay.shader" />
      <None Include="Assets\GoogleVR\Demos\Environment\DemoEnvUnlitGrayscale.shader" />
