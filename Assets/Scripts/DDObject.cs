@@ -5,7 +5,6 @@ public class DDObject : MonoBehaviour, DragDropHandler
     public Material gazedAtMaterial, inactiveMaterial;
     private bool isHeld;
     private GameObject reticle;
-
     public GameObject scriptPrefab;
     private GameManagerScript script;
 
@@ -29,7 +28,6 @@ public class DDObject : MonoBehaviour, DragDropHandler
     {
         isHeld = true;
         script.SetHeld(index);
-        //AudioSource audio = GetComponent<AudioSource>();
         AudioSource audio = GetComponentInParent<AudioSource>();
 		audio.Play ();
     }

@@ -198,13 +198,13 @@ public class GvrPointerInputModuleImpl {
     lastPose = currentPose;
 
     // Check to make sure the Raycaster being used is a GvrRaycaster.
-    if (raycastResult.module != null
+    /*if (raycastResult.module != null
         && !(raycastResult.module is GvrPointerGraphicRaycaster)
         && !(raycastResult.module is GvrPointerPhysicsRaycaster)) {
       Debug.LogWarning("Using Raycaster (Raycaster: " + raycastResult.module.GetType() +
         ", Object: " + raycastResult.module.name + "). It is recommended to use " +
         "GvrPointerPhysicsRaycaster or GvrPointerGrahpicRaycaster with GvrPointerInputModule.");
-    }
+    }*/
   }
 
   private void UpdateCurrentObject(GameObject previousObject) {
